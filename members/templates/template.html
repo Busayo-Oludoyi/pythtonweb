@@ -1,0 +1,9 @@
+{% with age=18 %}
+{% if age == 18 %}
+    <h1>Eligible to vote</h1>
+{% else %}
+    <h3>Not eligible to vote</h3>
+{% endif %}
+{% endwith %}
+
+{% include 'footer.html' %}
